@@ -1,4 +1,4 @@
-const College = require("../models/College");
+const College = require("../models/college");
 
 // POST /api/predictor — predict colleges based on exam + rank
 const predictColleges = async (req, res, next) => {

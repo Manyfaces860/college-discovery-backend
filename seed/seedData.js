@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "../.env" });
 dotenv.config();
 
-const College = require("../models/College");
+const College = require("../models/college");
 
 const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/college_discovery";
 

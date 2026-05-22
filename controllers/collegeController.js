@@ -1,4 +1,4 @@
-const College = require("../models/College");
+const College = require("../models/college");
 
 // GET /api/colleges — list with search, filter, pagination
 const getColleges = async (req, res, next) => {
